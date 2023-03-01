@@ -1,0 +1,16 @@
+#navbar-custom{
+    background-color: #446CB3;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    margin: 0;
+    border: none;
+}
+#navbar-custom .navbar-nav > li > a {
+    color: #fff;
+}
+#navbar-custom .navbar-nav li > a.active , #navbar-custom .navbar-nav li > a:hover, #navbar-custom .navbar-nav li > a:focus {
+    color: #b5ff00;
+    background-color: transparent;
+    border-bottom: 2px solid #b5ff00;
+}
